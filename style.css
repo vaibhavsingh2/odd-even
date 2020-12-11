@@ -1,0 +1,180 @@
+
+
+*
+{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background: #660000;
+}
+
+.header
+{
+    background: #660000;
+    font-size: 60px;
+    font-family: 'Amaranth';
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #e60000;
+    border: 3px solid #D4B99B;;
+    border-radius: 4px;
+    width: 40%;
+    margin: 10px auto;
+}
+
+.score
+{
+    font-size: 30px;
+    border: 3px solid #D4B99B;;
+    border-radius: 4px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+    height: 100px;
+    padding: 15px;
+    color: black;
+}
+
+.userdisplay
+{   font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: -65px;
+    background: #C2986F;
+}
+
+.computerdisplay
+{   font-size: 30px;
+    position: absolute;
+    top: 30px;
+    right: -110px;
+    background: #C2986F;
+}
+
+.userscore
+{   
+    position: absolute;
+    top:30px;
+    left:110px;
+    color: #C2986F;
+}
+
+.computerscore
+{
+    position: absolute;
+    top:30px;
+    right:110px;
+    color: #C2986F;
+}
+
+.options
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+    color: #D4B99B;
+    
+    width: 70%;
+    margin: auto;
+   
+}
+
+#userwins
+{
+    font-size: 50px;
+    border: solid #e18942 2px;
+    text-align: center;
+    width: 30%;
+   margin-right: 30px;
+    margin-left: 160px;
+    color: #eecd86;
+    visibility: hidden;
+    display: inline-block;
+}
+#computerwins
+{
+    font-size: 50px;
+    border: solid #e18942 2px;
+    text-align: center;
+    width: 30%;
+   margin-right: 30px;
+    margin-left: 160px;
+    color: #eecd86;
+    visibility: hidden;
+    display: inline-block;
+}
+
+#imagetable
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.imagetable1
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.images
+{
+    display: inline-block;   
+    border: 3px solid white;
+    padding-right: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.select
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.batbowl
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bat
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid black;
+    width: 10%;
+    margin: auto;
+    color: #D4B99B;
+    background-color: #000c33;
+}
+
+.bowl
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid black;
+    width: 10%;
+    margin: 20px auto;
+    color: #D4B99B;
+    background-color: #000c33;
+    visibility: hidden;
+    
+}
